@@ -1,0 +1,31 @@
+.spark-title {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: white;
+}
+
+.spark-tagline {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: #ced4da;
+  opacity: 0.9;
+}
+
+.spark-text {
+  gap: 2px;
+}
+
+@media (max-width: 530px) {
+  .spark-tagline {
+    display: none !important;
+  }
+}
+
+#people .card-img-top {
+  width: 150px !important;
+  height: 150px !important;
+
+  object-fit: cover;
+
+  margin-top: 15px;
+}
