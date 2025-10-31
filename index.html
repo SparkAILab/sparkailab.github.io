@@ -252,9 +252,9 @@
                 li.dataset.year = pub.Year;
                 
                 li.innerHTML = `
-                    ${pub.Year}. ${pub.Authors}. “${pub.Title}” 
+                    ${pub.Authors}. (${pub.Year}). “${pub.Title}” 
                     <em>${pub.Journal_Conf}</em>.
-                    ${pub.PDF_URL ? `<a href="${pub.PDF_URL}" target="_blank">PDF</a>` : ''}
+                    ${pub.PDF_URL ? `<a href="${pub.PDF_URL}" target="_blank">Link</a>` : ''}
                 `;
                 container.appendChild(li);
             }
